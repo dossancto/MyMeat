@@ -32,7 +32,7 @@ public static class DatabaseExtension
     public static IServiceCollection AddInMemoryDatabase(this IServiceCollection services, IConfiguration configuration)
     {
         services.AddDbContext<ApplicationDbContext>(options =>
-                  options.UseInMemoryDatabase("Organizarty"));
+                  options.UseInMemoryDatabase("MyMeat"));
 
         return services;
     }
