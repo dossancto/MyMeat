@@ -19,7 +19,7 @@ public class CreateMeatUseCase
     /// Validates and save a new Meat in database; 
     public async Task<Meat> Execute(CreateMeatDto meatDto)
     {
-        var meat = meatDto.ToModel;
+        var meat = meatDto.ToModel();
 
         Validator.Validate(_validator, meat, "Falha ao validar a carne.");
 

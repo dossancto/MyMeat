@@ -4,7 +4,7 @@ namespace MyMeat.Application.App.Meats.UseCases;
 
 public record CreateMeatDto(string name, string description, decimal price, DateTime validade)
 {
-    public Meat ToModel => new()
+    public Meat ToModel() => new()
     {
         Name = name,
         Description = description,
