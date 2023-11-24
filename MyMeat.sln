@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMeat.Application", "MyMea
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMeat.Infra", "MyMeat.Infra\MyMeat.Infra.csproj", "{01819032-4B10-44CC-B148-B69688BF70FE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMeat.UI", "MyMeat.UI\MyMeat.UI.csproj", "{CDB3F077-F4BB-4213-8F04-6CAE9020E54B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{01819032-4B10-44CC-B148-B69688BF70FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01819032-4B10-44CC-B148-B69688BF70FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01819032-4B10-44CC-B148-B69688BF70FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDB3F077-F4BB-4213-8F04-6CAE9020E54B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDB3F077-F4BB-4213-8F04-6CAE9020E54B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDB3F077-F4BB-4213-8F04-6CAE9020E54B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDB3F077-F4BB-4213-8F04-6CAE9020E54B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
