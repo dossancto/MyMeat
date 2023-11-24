@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMeat.Adapters", "MyMeat.Adapters\MyMeat.Adapters.csproj", "{95E8CC01-C380-4B8E-8DCA-18DB07CFC283}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMeat.Application", "MyMeat.Application\MyMeat.Application.csproj", "{0916AF5C-8819-446D-BAE7-7E7815B81DC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMeat.Infra", "MyMeat.Infra\MyMeat.Infra.csproj", "{01819032-4B10-44CC-B148-B69688BF70FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95E8CC01-C380-4B8E-8DCA-18DB07CFC283}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95E8CC01-C380-4B8E-8DCA-18DB07CFC283}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95E8CC01-C380-4B8E-8DCA-18DB07CFC283}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95E8CC01-C380-4B8E-8DCA-18DB07CFC283}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0916AF5C-8819-446D-BAE7-7E7815B81DC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0916AF5C-8819-446D-BAE7-7E7815B81DC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0916AF5C-8819-446D-BAE7-7E7815B81DC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0916AF5C-8819-446D-BAE7-7E7815B81DC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01819032-4B10-44CC-B148-B69688BF70FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01819032-4B10-44CC-B148-B69688BF70FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01819032-4B10-44CC-B148-B69688BF70FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01819032-4B10-44CC-B148-B69688BF70FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
