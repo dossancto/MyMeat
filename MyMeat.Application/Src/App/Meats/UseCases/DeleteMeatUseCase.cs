@@ -7,9 +7,7 @@ public class DeleteMeatUseCase
     private readonly IMeatRepository _meatRepository;
 
     public DeleteMeatUseCase(IMeatRepository meatRepository)
-    {
-        _meatRepository = meatRepository;
-    }
+      => _meatRepository = meatRepository;
 
     public async Task Execute(Guid id)
       => await _meatRepository.Delete(id);

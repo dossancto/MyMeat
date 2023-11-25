@@ -6,6 +6,8 @@ using MyMeat.Application.Utils.Validation;
 
 namespace MyMeat.Application.App.Meats.UseCases;
 
+public record UpdateMeatDto(string name, string description, decimal price, DateTime validade) { }
+
 public class UpdateMeatUseCase
 {
     private readonly IMeatRepository _meatRepository;
