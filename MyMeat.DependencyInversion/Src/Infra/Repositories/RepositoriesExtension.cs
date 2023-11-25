@@ -1,6 +1,6 @@
 using Microsoft.Extensions.DependencyInjection;
 using MyMeat.Application.App.Meats.Data;
-using MyMeat.Infra.Repositories.Meats;
+using MyMeat.Infra.App.Meats.Repositories;
 
 namespace MyMeat.DependencyInjection.Infra.Repositories;
 

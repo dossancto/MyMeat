@@ -4,7 +4,7 @@ using MyMeat.Application.App.Meats.Data;
 using MyMeat.Application.App.Meats.Entities;
 using MyMeat.Infra.Data.Contexts;
 
-namespace MyMeat.Infra.Repositories.Meats;
+namespace MyMeat.Infra.App.Meats.Repositories;
 
 public class EFMeatRepository : IMeatRepository
 {
